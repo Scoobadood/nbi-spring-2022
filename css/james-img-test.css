@@ -4,6 +4,17 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    width: 10%;
+    width: 20%;
+    
+}
+
+.like-symbol {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+   width: 15%;
+    text-align: right;
     
 }
