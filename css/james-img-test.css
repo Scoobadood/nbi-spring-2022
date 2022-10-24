@@ -8,6 +8,12 @@ html {
     padding-top: 10px;
 }
 
+.img-test-1:hover{
+    scale: 1.2;
+
+}
+
+
 .img-test-1 {
     display: block;
     margin-left: auto;
@@ -32,6 +38,7 @@ html {
 }
 
 .article-dog-1 {
+    background-color: red;
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
