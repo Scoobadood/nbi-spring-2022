@@ -21,9 +21,15 @@ html {
     
 }
 
-.img-test-1:hover{
+/* .img-test-1:hover{
     scale: 1.2;
     
+}
+*/ 
+
+.likes ::before  {
+    content: "♡";
+    display: block;
 }
 
 .like-symbol {
@@ -48,5 +54,9 @@ html {
     margin-top: auto;
     width: 20%;
     text-align: center;
+    transition: all .2s ease-in-out;
     
+}
+.article-dog-1:hover {
+    scale: 1.2;
 }
