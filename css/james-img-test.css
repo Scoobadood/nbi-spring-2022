@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 html {
     background: #D3D3D3;
     font-family: 'Times New Roman', Times, serif;
@@ -5,7 +9,7 @@ html {
 }
 
 .likes {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 
@@ -39,6 +43,27 @@ html {
     
 }
 
+.container img {
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+.container .likes {
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding-bottom: 100px;
+    z-index: 100;
+  }
+
+
 .like-count {
     margin-top: auto;
     text-align: right;
@@ -47,12 +72,12 @@ html {
 }
 
 .article-dog-1 {
-    background-color: rgb(229, 176, 176);
+    background-color: rgb(194, 105, 105);
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    width: 20%;
+    width: 18%;
     text-align: center;
     transition: all .2s ease-in-out;
     
