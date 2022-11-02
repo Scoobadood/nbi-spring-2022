@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 html {
     background: #D3D3D3;
@@ -10,8 +10,7 @@ html {
 
 .likes {
     padding: 10px;
-   
-  transform: translate(0%, -100%);
+    transform: translate(0%, -10a0%);
 }
 
 
@@ -24,16 +23,16 @@ html {
     margin-top: auto;
     width: 100%;
     transition: all .2s ease-in-out;
-    
+
 }
 
 /* .img-test-1:hover{
     scale: 1.2;
     
 }
-*/ 
+*/
 
-.likes ::before  {
+.likes ::before {
     content: "♡";
     display: block;
 }
@@ -42,7 +41,7 @@ html {
     text-align: right;
     float: right;
     padding-right: 10px;
-    
+
 }
 
 .container img {
@@ -53,17 +52,19 @@ html {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-  }
+}
 
 .container .likes {
     bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
     color: #f1f1f1;
     width: 100%;
     padding-bottom: 100px;
     z-index: 100;
-  }
+}
 
 
 .like-count {
@@ -82,8 +83,9 @@ html {
     width: 18%;
     text-align: center;
     transition: all .2s ease-in-out;
-    
+
 }
+
 .article-dog-1:hover {
     scale: 1.2;
 }
