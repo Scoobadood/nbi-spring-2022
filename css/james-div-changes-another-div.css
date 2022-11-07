@@ -15,10 +15,12 @@
     
 }
 
-.the-first-div-originally-blue:hover ~ .the-second-div-originally-green {
+/* .the-first-div-originally-blue:hover ~ .the-second-div-originally-green {
     background: #0000FF;
-}
+    font-weight: bold;
+} */
 
 .the-second-div-originally-green:hover ~ .the-first-div-originally-blue {
     background: #00ff08;
+    font-weight: bold;
 }
