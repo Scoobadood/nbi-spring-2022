@@ -1,9 +1,24 @@
-* {
-    box-sizing: border-box;
+ 
+
+.the-first-div-originally-blue {
+    background: #0000FF;
+    padding-bottom: 50px;
+    transition: all 1s ease;
+     
+    
 }
 
-html {
-    background: #D3D3D3;
-    font-family: 'Times New Roman', Times, serif;
+.the-second-div-originally-green {
+    background: #00ff08;
+    padding-bottom: 50px;
+    transition: all 1s ease;
+    
+}
 
+.the-first-div-originally-blue:hover ~ .the-second-div-originally-green {
+    background: #0000FF;
+}
+
+.the-second-div-originally-green:hover ~ .the-first-div-originally-blue {
+    background: #00ff08;
 }
