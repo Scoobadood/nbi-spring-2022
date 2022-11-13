@@ -1,5 +1,5 @@
 div {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 1);
     width: 500px;
 }
 
