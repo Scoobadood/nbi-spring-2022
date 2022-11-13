@@ -1,26 +1,26 @@
- 
-
-.the-first-div-originally-blue {
-    background: #0000FF;
-    padding-bottom: 50px;
-    transition: all 1s ease;
-     
-    
+div {
+    border: 1px solid black;
+    width: 500px;
 }
-
-.the-second-div-originally-green {
-    background: #00ff08;
-    padding-bottom: 50px;
-    transition: all 1s ease;
-    
+.container {
+    margin:auto;
+    height: 500px;
 }
-
-.container .the-first-div-originally-blue:hover ~ .the-second-div-originally-green {
-    background: #0000FF;
-    font-weight: bold;
+.coloured_box {
+    height: 50%;
+    transition: all 0.5s ease-in-out;
 }
-
-.container .the-second-div-originally-green:hover ~ .the-first-div-originally-blue {
-    background: #00ff08;
-    font-weight: bold;
+.red_to_green {
+    background-color: red;
+}
+.green_to_red {
+    background-color: green;
+}
+/* Make a following green_to_red be red */
+.red_to_green:hover ~ .green_to_red {
+    background-color: red;
+}
+/* Make a thing that has a following green_to_red:hover be green */
+*:has(+ .green_to_red:hover) {
+    background-color: green;
 }
