@@ -2,25 +2,31 @@ div {
     border: 1px solid black;
     width: 500px;
 }
+
 .container {
-    margin:auto;
-    height: 500px;
+    margin: auto;
+    height: 150px;
 }
+
 .coloured_box {
     height: 50%;
     transition: all 0.5s ease-in-out;
 }
+
 .red_to_green {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
+
 .green_to_red {
-    background-color: green;
+    background-color: #0a9f0d;
 }
+
 /* Make a following green_to_red be red */
-.red_to_green:hover ~ .green_to_red {
-    background-color: red;
+.red_to_green:hover~.green_to_red {
+    background-color: rgb(255, 0, 0);
 }
+
 /* Make a thing that has a following green_to_red:hover be green */
 *:has(+ .green_to_red:hover) {
-    background-color: green;
+    background-color: #0a9f0d;
 }
